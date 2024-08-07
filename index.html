@@ -11,13 +11,13 @@
     <dialog id="modal">
         
         <h3>Add Book!</h3>
-        <form class="addBookForm" action="">
+        <form validate class="addBookForm" action="">
             <label for="bookTitle">Title</label>
-            <input id="bookTitle" type="text">
+            <input id="bookTitle" type="text" required>
             <label for="bookAuthor">Author</label>
-            <input id="bookAuthor" type="text">
+            <input id="bookAuthor" type="text" required>
             <label for="bookPages">Number of Pages</label>
-            <input id="bookPages" type="text">
+            <input id="bookPages" type="text" required>
             <label for="readAlready">Read Already?</label>
             <input id="readAlready" type="checkbox">
             <button class="addBookForm-submitButton">Submit</button>
